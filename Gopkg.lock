@@ -14,6 +14,12 @@
   revision = "8c6ee72f3e6bcb1542298dd5f76cb74af9742cec"
 
 [[projects]]
+  name = "github.com/mattes/migrate"
+  packages = [".","database","database/postgres","source","source/go-bindata"]
+  revision = "035c07716cd373d88456ec4d701402df52584cb4"
+  version = "v3.0.1"
+
+[[projects]]
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "645ef00459ed84a119197bfb8d8205042c6df63d"
@@ -22,6 +28,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b3c9971a107848c219ce3c9e27e95d0be0676d0cf863877ff0bb754ca7fe080f"
+  inputs-digest = "68073399993322cad27d4382f73c7428685edac9457e26251bb8fdf8d250e7b4"
   solver-name = "gps-cdcl"
   solver-version = 1
