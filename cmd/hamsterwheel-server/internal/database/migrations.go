@@ -83,7 +83,7 @@ func _1_firstUpSql() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "1_first.up.sql", size: 22, mode: os.FileMode(420), modTime: time.Unix(1511416122, 0)}
+	info := bindataFileInfo{name: "1_first.up.sql", size: 22, mode: os.FileMode(420), modTime: time.Unix(1511421404, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
