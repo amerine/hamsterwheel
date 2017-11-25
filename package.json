@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "react-relay": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^1.4.1",
+    "relay-compiler": "^1.4.1"
+  },
+  "name": "hamsterwheel",
+  "version": "1.0.0",
+  "description": "the wheel, it's for hamsters",
+  "main": "index.js",
+  "repository": "git@github.com:amerine/hamsterwheel.git",
+  "author": "Mark Turner <mark@amerine.net>",
+  "license": "MIT",
+  "private": true
+}
